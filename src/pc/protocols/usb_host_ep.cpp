@@ -59,7 +59,7 @@ static libusb_context *ctx = NULL;
 static libusb_device_handle *dev_handle = NULL;
 
 int usbEpInitialize() {
-    int error;
+    //int error;
 
     /* Initialize libusb */
     libusb_init(&ctx);
